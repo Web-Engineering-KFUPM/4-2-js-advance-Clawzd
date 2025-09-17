@@ -68,6 +68,12 @@ Task:
 2) Use .charAt(index) and .length to output characters and size.
 */
 
+let message = "Hello";
+
+console.log("Length:", message.length);
+console.log("First character:", message.charAt(0));
+console.log("Last character:", message.charAt(message.length - 1));
+
 // ===================================
 // TODO-4: DATE — day, month, and year
 // ===================================
