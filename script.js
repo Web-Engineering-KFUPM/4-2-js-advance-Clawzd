@@ -102,6 +102,13 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
+let nums = [12, 45, 7, 89, 23, 67, 34, 10, 5, 77];
+
+let min = Math.min(nums);
+let max = Math.max(nums);
+
+console.log("Min:", min);
+console.log("Max:", max);
 
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
